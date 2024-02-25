@@ -1,0 +1,18 @@
+.home {
+  background-image: url('/images/2022_10_03_10_50_31_000000_153-Engenharia-Civil--1920x1080.jpg');
+  background-size: cover;
+  background-position: 100% 30px;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Sobreposição escura semi-transparente */
+}
